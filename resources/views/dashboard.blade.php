@@ -11,6 +11,7 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
                 </div>
+                <a href="{{route('crop.index')}}" style="color:white">Crop</a>
             </div>
         </div>
     </div>
